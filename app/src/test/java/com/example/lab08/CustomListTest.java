@@ -26,9 +26,9 @@ public class CustomListTest {
     }
 
     @Test
-    void testDelete() {
+    void testDeleteCity() {
         CustomList cityList = mockCityList();
-        cityList.delete(mockCity());
+        cityList.deleteCity(mockCity());
         assertFalse(cityList.hasCity(mockCity()));
     }
 }
